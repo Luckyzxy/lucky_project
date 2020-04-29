@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {
+    "van-sidebar": "/wxcomponents/vant/sidebar/index",
+    "van-sidebar-item": "/wxcomponents/vant/sidebar-item/index",
+    "van-stepper": "/wxcomponents/vant/stepper/index",
+    "van-popup": "/wxcomponents/vant/popup/index",
+    "van-tag": "/wxcomponents/vant/tag/index"
+  },
+  "sitemapLocation": "sitemap42.json"
+}

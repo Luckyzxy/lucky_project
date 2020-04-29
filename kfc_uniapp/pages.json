@@ -1,0 +1,25 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "肯德基",
+				"navigationBarBackgroundColor": "#D62F35",
+				"navigationBarTextStyle": "white"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"usingComponents":{
+			"van-sidebar":"/wxcomponents/vant/sidebar/index",
+			"van-sidebar-item":"/wxcomponents/vant/sidebar-item/index",
+			"van-stepper": "/wxcomponents/vant/stepper/index",
+			"van-popup": "/wxcomponents/vant/popup/index",
+			"van-tag": "/wxcomponents/vant/tag/index"
+		}
+	}
+}
